@@ -1,21 +1,18 @@
+/*
+ * test class
+ * Dion de Jong 3/26/2014
+ * Ver: 1.00
+ * Description: This class tests my awesome code. 
+ * Last modified: 3/26/14
+ */
 public class test {
-
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//should convert from string to number
 		
-		
-		ExprEval test = new ExprEval(("((((13+4)/2)*5)+3)")); 
-//		ExprEval test = new ExprEval(("(((2+3))-")); 
-//		ExprEval test = new ExprEval(("(2+3) + 2 + 2"));
-//		ExprEval test = new ExprEval(("(2+)"));
-		
-		test.Evaluate();
-//		System.out.println(test.isEmpty());
-//		test.pop();
-//		System.out.println(test.isEmpty()); 
-	
-		
+       PolySolver ps = new PolySolver();
+       ps.AddPoly();   
 	}
-
 }
